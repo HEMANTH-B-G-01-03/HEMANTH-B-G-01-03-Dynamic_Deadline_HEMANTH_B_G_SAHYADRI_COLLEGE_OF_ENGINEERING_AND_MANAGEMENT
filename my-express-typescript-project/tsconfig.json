@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",  // Ensures Node-style resolution
+    "baseUrl": "./",  // Ensures root directory for imports
+    "paths": {
+      "*": ["node_modules/*", "src/*"]
+    },
+    "esModuleInterop": true,  // Ensures compatibility for importing non-ES modules
+    "outDir": "./dist",  // Compiles to the dist folder
+    "rootDir": "./src"  // Source files are in the src folder
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
