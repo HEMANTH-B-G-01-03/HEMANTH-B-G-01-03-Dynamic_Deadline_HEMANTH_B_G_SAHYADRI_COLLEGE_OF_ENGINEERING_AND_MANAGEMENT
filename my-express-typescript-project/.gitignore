@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+out/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Environment files (including .env files containing sensitive info)
+.env
+.env.*.local
+
+# IDEs and editors (e.g., VS Code, IntelliJ, etc.)
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# MacOS
+.DS_Store
+
+# Optional lockfiles (decide based on your use case)
+# package-lock.json
+# yarn.lock
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage files (from testing tools like Istanbul or nyc)
+coverage/
+.nyc_output/
